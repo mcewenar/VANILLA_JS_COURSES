@@ -1,0 +1,15 @@
+// Using Loops / bucles "for"
+//1. Create a new image, specifying that the new image is 200 pixels wide and 200 pixels high.
+
+
+
+new SimpleImage(200,200);
+//print(SimpleImage);
+    for (var pixel of SimpleImage.values()) {
+        var newG = 255 - pixel.getBlue();
+        pixel.setBlue(newG);}
+
+//print(newG);
+
+
+

@@ -1,0 +1,30 @@
+.orangeback {
+    background-color: orange;
+  }
+  .blueback {
+    background-color: lightblue;  
+    font-family: Georgia;
+  }
+  .fuchsiaback {
+    background-color: fuchsia;
+    font-family: arial;
+  }
+  
+  
+  
+  canvas {
+    widht: 200pt;
+    height: 100pt; 
+    margin: 10px;
+    borgin: 1px solid lightgray;
+    
+  }
+input {
+    font-size: 20pt;
+  }
+  h1 {
+    text-align: center;
+    color: red;
+}
+  
+  

@@ -1,0 +1,26 @@
+<!DOCTYPE lang="en">
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Colors Sliders Practice </title>
+  <link rel="stylesheet" href="estilos4.css">
+</head>
+  
+<body> 
+    <h1> I love intermittent fasting. There is many benefits, like: </h1>
+    <ol>
+      <b> <li> Reduce insuline tolerance </li>
+
+          <li> Avoid cancer </li>
+          <li> Grease loss </li>
+          <li> Cell Autophagy </li>
+        <li> Others benefits in our bodies             </li> </b>
+    </ol>
+    <canvas id="can" class="orange"> </canvas> <!--El canvas debe ir con una clase (class=""), que luego en el CSS, se llama mediante .""-->
+    <input type="button" value="make green" onclick="buttonfun()" class="text">
+    <input type="color" value="#FF0000" id="clr" onchange="onchange()" >
+  
+    <input type="range" min="10" max="100" value="10" id="slr" oninput="dosquare()" class="put">
+    <script src="manejo.js"></script>
+</body>
+</html>

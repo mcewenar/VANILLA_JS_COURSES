@@ -1,0 +1,20 @@
+
+// valores alfanuméricos
+var track="can";
+var din="'t";
+var tin=track+din;
+print(tin);
+//Ahora valores numéricos
+var x=3;
+var y=4;
+var z=x+y;
+var z=z+x+y;
+print(z, y, x);
+var im= new SimpleImage("dinos.png");
+var pin= im.getPixel(200,300);
+print(im.getHeight());
+print(pin)
+
+
+
+

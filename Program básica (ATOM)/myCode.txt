@@ -1,0 +1,11 @@
+// write your code here
+var y=36;
+var x=45;
+var c=x+y;
+print(c);
+
+//Now, We go upload the images from de Duke University, through "Methods".
+var img= new SimpleImage("drewRobertDinos.png");
+var j= img.getWidth();
+print(j);
+print(img);

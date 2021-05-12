@@ -1,0 +1,7 @@
+//Function Cube
+function cube(x){
+   var ans=x**3;
+   return ans;
+}
+var y=cube(3);
+print(y)
