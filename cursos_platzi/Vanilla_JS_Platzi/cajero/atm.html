@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> ATM: Poor bank </title>
+    </head>
+    <body>
+        <p> <!--contenedor-->
+            <img src="C:\Users\\dmcew\\proy_programacion\\Duke_cour1\\cursos_platzi\\Vanilla_JS_Platzi\\cajero\\imagenes\\cajero.webp"></img>
+        </p>
+        <p>
+            <input type="number" id="dinero"/> <!--Number sólo permite números-->
+            <input type="button" value="Extraer" id="extraer" />
+            <input type="button" value="Consultar Saldo" id="cantidad" />
+            <input type="button" value="Refrescar Cajero" onclick="javascript:window.location.reload();"/>
+        </p>
+        <p id="resultado">
+            <br>
+            <br>
+            <p> Tu saldo actual es:
+                <strong id="sobrante"> 
+                </strong> 
+
+            </p>
+        
+        </p>
+        <script src="BilleteClass.js"></script>
+        <script src="cajero.js"></script>
+    </body>
+</html>
